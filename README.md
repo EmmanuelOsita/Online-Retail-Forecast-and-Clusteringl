@@ -145,7 +145,7 @@ Hence we can conclude that on an annual scale, the model seems reasonably accura
 
 
 
-MAJOR KEY FINDING
+## MAJOR KEY FINDINGS
 
 1. The chart revealed that SET 2 TEA TOWELS I LOVE LONDON and SPACEBOY BABY GIFT SET are the highest selling products, both of them exceeding 7,000 sales. Meanwhile some products like 4 PURPLE FLOCK DINNER CANDLes have significantly lower sales
 2. The chart revealed that Q4 (Oct-Dec) has the highest sales with Q1 having the lowest sales.
@@ -157,7 +157,7 @@ MAJOR KEY FINDING
 
 
 
-RECOMMENDATIONS FOR TARGETED MARKETING STRATEGIES
+## RECOMMENDATIONS FOR TARGETED MARKETING STRATEGIES
 1. The Businesse should stock more of the high demand products like SET 2 TEA TOWELS I LOVE LONDON and SPACEBOY BABY GIFT SET while reconsidering the supply of low-performing items
 2. The Business should increase inventory before peak sales months (September- November) and reduce stock in slower months like April and July
 3. Promotions should be ramped up in low sales month to smooth revenue streams
