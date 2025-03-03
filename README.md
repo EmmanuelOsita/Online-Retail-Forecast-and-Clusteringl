@@ -84,7 +84,8 @@ Morning sales are moderate, showing steady activity but lower than the afternoon
 
 Sales decline sharply in the evening and reach the lowest point at night. The drop might be that people might be engaged in other activities such as socializing or relaxing while the low night sales might be due to rest of fewer promotional campaigns
 
-![image](https://github.com/user-attachments/assets/d7f768ad-756d-464d-b285-c5b22f0b033d)
+![image](https://github.com/user-attachments/assets/84ca6985-1b4b-495a-bde8-a52933e7286a)
+
 
 ### Clustering and Customer Segmentation 
  
@@ -99,7 +100,8 @@ iii.	Blue (Low Purchase): These customers haven’t bought in a long time and al
 
 Based on the chart, Customers who buy often tend to come back quickly (green cluster). Some customers buy occasionally and have moderate recency (Orange cluster) while many customers haven't bought in a long time and don’t buy often (Blue cluster)
 
-![image](https://github.com/user-attachments/assets/4e044c48-109e-400d-8e1a-cbade1c47d05)
+![image](https://github.com/user-attachments/assets/d7f768ad-756d-464d-b285-c5b22f0b033d)
+
 
 ### Predictive Classification Mode 
 
@@ -122,7 +124,8 @@ This means how often a customer buys is also an important  factor but not as str
 Oher Features:
 Factors like Year, Month, country and sales periods still matter but dont contribute as much as to predictions.
 
-![image](https://github.com/user-attachments/assets/77b017d8-3101-445f-aed8-30cf6f1aab73)
+![image](https://github.com/user-attachments/assets/4e044c48-109e-400d-8e1a-cbade1c47d05)
+
 
 ### Sales Forecasting Model, Time Series Forecasting and Business Insights on Future Sales Trends
 
@@ -140,8 +143,7 @@ The charts show that, the online store had fluctuating sales with some months hi
 
 The model predicted sales to stay within a stable range (as seen in the confidence level) but actual sales spiked unexpectedly (likely due to external factors like a holiday season, discounts, viral trends or a special promotion.
 
-![Uploading image.png…]()
-
+![image](https://github.com/user-attachments/assets/77b017d8-3101-445f-aed8-30cf6f1aab73)
 
 ### Evaluation of forecast accuracy 
  
