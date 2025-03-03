@@ -1,5 +1,11 @@
 # ONLINE RETAIL FORECAST AND CLUSTERING
 
+## 📂 Files in This Repository
+- **Online Forecasting and CLustering.ipynb Part 1 and 2.** → Jupyter Notebook for data analysis.
+- **Online retail.xlsx** → The dataset used for analysis.
+- **README.md** → Explanation of the project.
+
+
 ## INTRODUCTION 
 
 In today's fast-paced e-commerce landscape, businesses must leverage data-driven insights to stay competitive. Understanding customer purchasing behavior, optimizing inventory, and accurately forecasting sales are crucial for maximizing profitability and improving customer experience. This project focuses on Online Retail Sales Forecasting and Clustering Analysis to classify transactions, identify hidden patterns, and segment customers effectively. By applying predictive modeling and clustering techniques, this analysis aims to enhance decision-making processes, drive targeted marketing strategies, and streamline inventory management.
@@ -28,7 +34,7 @@ Many online retailers struggle with optimizing inventory, segmenting customers e
 
 ## TOOLS USED
 
-Excel, Python, Matplolib, Seabon, K-Means Model. 
+Python, Pandas and Numpy, Matplolib and Seabon, Scikit-learn, Statsmodels, XGBoost/LightGBM, K-Means & DBSCAN, Time Series Analysis (ARIMA, Prophet) and Jupyter Notebook 
 
 
 ## ANALYSIS AND INSIGHTS
