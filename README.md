@@ -1,4 +1,12 @@
-# ONLINE RETAAIL FORECAST AND CLUSTERING
+# ONLINE RETAIL FORECAST AND CLUSTERING
+
+## INTRODUCTION 
+
+In today's fast-paced e-commerce landscape, businesses must leverage data-driven insights to stay competitive. Understanding customer purchasing behavior, optimizing inventory, and accurately forecasting sales are crucial for maximizing profitability and improving customer experience. This project focuses on Online Retail Sales Forecasting and Clustering Analysis to classify transactions, identify hidden patterns, and segment customers effectively. By applying predictive modeling and clustering techniques, this analysis aims to enhance decision-making processes, drive targeted marketing strategies, and streamline inventory management.
+
+## STATEMENT OF THE PROBLEM 
+
+Many online retailers struggle with optimizing inventory, segmenting customers effectively, and predicting future sales trends. Traditional methods often fail to capture hidden patterns in transactional data, leading to stock shortages, excess inventory, and missed marketing opportunities. Without accurate forecasting and clustering insights, businesses risk inefficiencies in resource allocation, customer engagement, and revenue generation. This project addresses these challenges by developing a robust predictive model to classify transactions, identify meaningful customer segments, and forecast sales trends, enabling data-driven decision-making for improved business performance.
 
 ## MY ROLE 
 
