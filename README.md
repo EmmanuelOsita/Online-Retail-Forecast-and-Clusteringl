@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/5ff1dc77-4647-4ef5-a1ca-9bef7429a969)
+
 # ONLINE RETAIL FORECAST AND CLUSTERING
 
 ## 📂 Files in This Repository
@@ -74,9 +76,6 @@ Sales drop sharply on Friday and hit the lowest point on Saturday.
 
 ![image](https://github.com/user-attachments/assets/67ac46e4-8f98-4652-97de-40c23a2c199a)
 
-
-
-
  
 The chart below reveals that Sales peak in the Afternoon indicating that most transactions occur during this period.
 
@@ -106,7 +105,42 @@ Based on the chart, Customers who buy often tend to come back quickly (green clu
 ### Predictive Classification Mode 
 
 Machine learning model selection
-  
+
+```python
+from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
+from xgboost import XGBClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import f1_score, recall_score, accuracy_score, classification_report, confusion_matrix
+
+## Define models
+
+models = {
+    "lr" : LogisticRegression(),
+    "rfr" : RandomForestClassifier(),
+    "xg" : XGBClassifier(),
+    "knn" : KNeighborsClassifier(),
+    "dt" : DecisionTreeClassifier()
+}
+
+## Train and evaluate each model
+for name, model in models.items():
+    model.fit(sc_X_train, y_train)
+    y_pred = model.predict(sc_X_test)
+
+    ## Evaluation
+    f1 = f1_score(y_test, y_pred, average="weighted")
+    recall = recall_score(y_test, y_pred, average="weighted")
+
+
+    print(f"Model: {name}")
+    print(f"F1_Score: {f1:.2f}")
+    print(f"Recall_Score: {recall:.2f}")
+```
+![Screenshot (199)](https://github.com/user-attachments/assets/febe0891-39ee-494c-971f-6d397c53602e)
+
+
 Based on the F1-score and Recall-score displayed for the different models, the best model would ideally be the one with the highest scores Random Forest, XGBoost and Decision Tree. nevertheless I choose XGboost (xg) because it tends to generalize better compared to others and also handles large datasets well and reduces overfitting using boosting.
 
 ### Feature Importance Analysis  
